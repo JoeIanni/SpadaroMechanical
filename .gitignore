@@ -1,0 +1,14 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+/doc/crossdomain.md
+/doc/usage.md
+/doc/TOC.md
+/doc/misc.md
+/doc/js.md
+/doc/html.md
+/doc/faq.md
+/doc/extend.md
+/doc/css.md
+/CHANGELOG.md
+/CONTRIBUTING.md
