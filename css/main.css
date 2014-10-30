@@ -48,7 +48,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: .5em 0;
     padding: 0;
 }
 
@@ -102,12 +102,15 @@ body{
     color: #555555;
 }
 
-.clear{
-    clear: both;
-}
 .wrapper{
     width: 990px;
     margin: 0 auto;
+}
+.pageimage {
+    float: right;
+    margin: 5px 0 10px 10px;
+    box-shadow: -5px 5px 10px #555555;
+    width: 45%;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -163,8 +166,15 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 0;
 }
 
+#main {
+ padding: 5px 10px;   
+}
+
+#main h2 {
+    margin-bottom: 5px;
+}
 #main p{
-    margin: 0;
+    margin: 5px 0;
 }
 
 #ac-basics {
@@ -193,22 +203,63 @@ h1, h2, h3, h4, h5, h6{
     background-color: #003A7A;
     color: #fff;
     margin-top: 0;
-    
+    padding: .5em 0;    
 }
 #page-footer table {
     width: 100%;
     margin: 0 auto;
 }
 #page-footer td {
-    width: 20%;
     text-align: center;
+    width: 25%;
     
 }
+#address {
+    padding-left: 10px;
+    width: 50%;
+}
 
+#footernav {
+    float: right;
+    width: 50%;
+}
+
+#footernav ul {
+    margin: 0;
+    padding:  0;
+    list-style: none;
+}
+
+#footernav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footernav li a:hover {
+    text-decoration: underline;
+}
+
+.tip address a {
+    text-decoration: none;
+    color: #555555;    
+}
+
+.tip address a:hover {
+    text-decoration: underline;
+}
+
+.tip h3 {
+    margin-top: 1em;
+}
+
+/*
+ * Slider
+ */
 .banner { 
     position: relative;
     overflow: auto;
-    width: 600px; 
+    width: 600px;
+    margin: 0 auto; 
 }
 
 .banner ul{
@@ -226,9 +277,6 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0; 
 }
-
-
-
 
 
 /* ==========================================================================
