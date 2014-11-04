@@ -185,6 +185,7 @@ h1, h2, h3, h4, h5, h6{
     width: 30%;
     border-radius: 5px;
     font-size: .9em;
+    padding: 0 5px;
 }
 
 #ac-basics h3 {
@@ -217,11 +218,13 @@ h1, h2, h3, h4, h5, h6{
 #address {
     padding-left: 10px;
     width: 50%;
+    font-size: .75em;
 }
 
 #footernav {
     float: right;
     width: 50%;
+    font-size: .75em;
 }
 
 #footernav ul {

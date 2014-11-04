@@ -101,7 +101,7 @@
  
            <div id="address">
                 <p>Spadaro Mechanical, Inc.<br>
-                License #XXXXXXXX<br>
+                License #CMC1250282<br>
                 3931 Westgate Avenue, Bay 3<br>
                 West Palm Beach, FL 33409</p>
             </div>
@@ -116,7 +116,6 @@
 
         <!-- Script reference for unslider -->
         <script src="js/vendor/unslider.min.js"></script>
-
         <script>
             $(function() {
                 $('.banner').unslider({
@@ -124,6 +123,16 @@
                     delay: 5000,
                     dots: false
                 });
+            });
+        </script>
+
+        <!-- Display a random tip in #ac-basics -->
+        <script>
+            var tipNumber = Math.floor((Math.random() * 5) + 1);
+            var tipPath = "tips/basics" + tipNumber + ".html"
+
+            $.get(tipPath, function(data) {
+                  $("#ac-basics").html(data);
             });
         </script>
     </body>
